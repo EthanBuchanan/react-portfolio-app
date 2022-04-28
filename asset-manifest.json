@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio-app/static/css/main.60290a92.css",
-    "main.js": "/react-portfolio-app/static/js/main.583a5c3d.js",
+    "main.js": "/react-portfolio-app/static/js/main.7ef9c2f2.js",
     "static/js/787.a8a33273.chunk.js": "/react-portfolio-app/static/js/787.a8a33273.chunk.js",
-    "static/media/Profile-pic.jpg": "/react-portfolio-app/static/media/Profile-pic.cb58ab7b536f13967a2f.jpg",
     "static/media/Holidaze.PNG": "/react-portfolio-app/static/media/Holidaze.e060254a76b54670c0a5.PNG",
     "static/media/scheduler.PNG": "/react-portfolio-app/static/media/scheduler.e1601ccc9ca819c08fe5.PNG",
     "static/media/CodeQuiz.PNG": "/react-portfolio-app/static/media/CodeQuiz.be2964b8b5299ddeadda.PNG",
@@ -11,11 +10,11 @@
     "static/media/passwordGenerator.PNG": "/react-portfolio-app/static/media/passwordGenerator.e45ddff79d7a2dc8c8ea.PNG",
     "index.html": "/react-portfolio-app/index.html",
     "main.60290a92.css.map": "/react-portfolio-app/static/css/main.60290a92.css.map",
-    "main.583a5c3d.js.map": "/react-portfolio-app/static/js/main.583a5c3d.js.map",
+    "main.7ef9c2f2.js.map": "/react-portfolio-app/static/js/main.7ef9c2f2.js.map",
     "787.a8a33273.chunk.js.map": "/react-portfolio-app/static/js/787.a8a33273.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60290a92.css",
-    "static/js/main.583a5c3d.js"
+    "static/js/main.7ef9c2f2.js"
   ]
 }
