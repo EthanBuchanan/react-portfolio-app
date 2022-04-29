@@ -22,7 +22,8 @@ header {
 }
 
 main {
-  display: flex;
+  display: block;
+  margin: 0px 15%;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -57,8 +58,9 @@ section {
   display: flex;
   
   margin: 10px;
+  
 
-  width: 70%;
+  /* width: 70%; */
   
   height: 100%;
   background-color: white;
@@ -67,11 +69,15 @@ section {
   box-shadow: #390040 4px 4px;
 }
 
+.shadow {
+  box-shadow: #390040 4px 4px;
+}
+
 .section-title {
   
   border-right: solid #363732 5px;
   border-radius: 2px;
-  flex-grow: 1;
+  flex-grow: .01;
   flex-basis: 140px;
   flex-shrink: 0;
   font-family: sans-serif;
@@ -79,7 +85,7 @@ section {
   
 }
 .section-main {
-  width: 79%;
+  
   padding: 0px 20px;
   
 }
@@ -144,32 +150,120 @@ p {
   margin: 10px;
 }
 
+a.nav_highlighted {
+
+  padding: 8px;
+
+  color: black;
+  font-weight: bold;
+
+  background-color: white;
+  box-shadow: black 4px 4px;
+}
+
+.header-right div {
+  
+  display: inline-block;
+}
+
+form * {
+  display: block;
+  margin: 5px;
+}
+
+.footer {
+  margin-top: 15px;
+
+  display: block;
+  background-color: #390040;
+  color: white;
+
+  height: max-content;
+
+  /* position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red; 
+  color: white;
+  text-align: center; */
+}
+
 @media screen and (max-width:1000px){
   section {
-      width: 100%;   
+      display: block;
+      /* width: 100%;  */
+      
+      
+  }
+
+  .section-main {
+    
+    width: auto; 
+  }
+
+  .img-chunk {
+    width: auto;
+  }
+
+  .section-title {
+    padding-bottom: 20px;
+    border-right: 0px;
+    border-bottom: solid #363732 5px;  
   }
 
   .header-right {
       margin-right: 20px;
+      flex-shrink: 1;
   }
 
   .header-left {
       margin-left: 20px;
   }
-}
 
-@media screen and (max-width:850px){
-  .header-right {
-      width: 150px;
-      
-      
+  .contact-me {
+    display: block;
+    padding: 0px;
+    font-size: 80%;
   }
 }
 
-@media screen and (max-width:450px){
+
+
+@media screen and (max-width:850px){
+
+  header {
+    height: 130px;
+  }
+
+  .header-right {
+      /* width: 150px; */
+
+      
+      
+      
+  }
+
+  .header-right div {
+    display: block;
+  }
+
+  .header-right a {
+    
+    float: right;
+    width: auto;
+    padding: 6px;
+  }
+
+  main {
+    margin: 0px;
+  }
+}
+
+/* @media screen and (max-width:450px){
   header {
       height: 130px;
       
       
   }
-}
+} */

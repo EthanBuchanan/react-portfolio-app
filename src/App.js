@@ -1,5 +1,5 @@
 // MODULES
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 // CSS
@@ -10,7 +10,10 @@ import './App.css';
 // COMPONENTS
 import Header from "./components/Header"
 import Main from "./components/Main"
-import AboutMe from "./components/Main"
+import AboutMe from "./components/AboutMe"
+import Contact from "./components/Contact"
+import Footer from './components/Footer';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -23,15 +26,25 @@ function App() {
         <Routes>
 
           <Route 
-            path="/"
+            path="/projects"
             element= {<Main />}
           />
           <Route 
-            path="/about_me"
+            path="/"
             element= {<AboutMe />}
+          />
+          <Route 
+            path="/contact"
+            element= {<Contact />}
+          />
+          <Route 
+            path="/resume"
+            element= {<Resume />}
           />
           
         </Routes>
+
+        <Footer />
       </Router>
     </>
   );

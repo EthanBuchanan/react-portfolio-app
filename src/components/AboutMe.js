@@ -1,27 +1,27 @@
-import profile_pic from "../images/Profile-pic.jpg" 
+import profile_pic from "../images/profile.png" 
 
 function Main() {
     return (    
         <main>
             <section id="section-about-me">
-                <div class="section-title">
+                <div className="section-title">
                     <h2>
                         About Me
                     </h2>
 
                     <img src={profile_pic} alt="Profile pic" id="Profile-pic" />
                 </div>
-                <div class="section-main">
+                <div className="section-main">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt dolor ultrices massa sollicitudin consectetur. Donec massa eros, molestie a nibh nec, consequat varius lacus. Donec vitae neque sed nisl efficitur malesuada. 
+                        Hi I'm Ethan Buchanan. A 22 year old programmer born in Utah currently living in Washington.  
                     </p>
                     <br />
                     <p>
-                        Cras sagittis ipsum magna, in ornare dolor vulputate porta. Phasellus ex eros, venenatis sit amet ultricies eget, vehicula tempor mauris. Nam et fermentum libero, quis dignissim felis. Integer vitae accumsan lacus. Nulla et cursus ex. Curabitur arcu urna, ornare non arcu et, consequat auctor dolor. Nulla pretium bibendum dui. Nulla quis arcu velit. 
+                        I've been interested in programming since I (my dad) built my first video game when I was a 11. Since then I took every Programming class that I could in school. When those naturally started teaching from scratch when transfering from middle school to high school, and from high school to college I started to put a lot of effort into side projects, developing my skills independant of school.
                     </p>
                     <br />
                     <p>
-                        Pellentesque sit amet porta metus. Phasellus eget lectus sed ligula tincidunt sodales non et mi. Sed est magna, sagittis ut augue ut, interdum tincidunt nibh. Nullam quis rhoncus diam. Suspendisse malesuada ultricies velit non efficitur. 
+                        Doing this I mostly did work on what intersted me: Making games in Unity with C# and playing with ML in python. 
                     </p>
                 </div>
             </section>
